@@ -1,0 +1,100 @@
+.registration{
+  background-image: linear-gradient(to top, rgba(24, 24, 24, 0), rgb(45, 44, 44)),url('./images/registration.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 115vh;
+}
+.registration_part{
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(82,133,147,0.9252743333661589) 0%, rgba(249,249,249,1) 0%, rgba(117,101,101,1) 100%);
+  width: 75%;
+  height: 100vh;
+  margin: 0 auto;
+  border-radius: 0.313rem;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.registration_body{
+  padding: 10px 25px;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  opacity: .8;
+}
+.form-control:focus{
+  border: none;
+  outline: none;
+}
+.input-group-text {
+  display: flex;
+  align-items: center;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgb(33, 37, 41);
+  text-align: center;
+  white-space: nowrap;
+  background-color: rgb(233, 236, 239);
+  border: 1px solid rgb(206, 212, 218);
+  border-radius: 0.25rem;
+  opacity: .8;
+}
+#choose{
+  font-weight: 700 !important;
+}
+.btn-dark{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(82,133,147,0.9252743333661589) 0%, rgba(249,249,249,1) 0%, rgba(117,101,101,1) 100%);
+  color: #000;
+  font-weight: 700;
+  position: relative;
+  left: 80px;
+  width: 300px;
+}
+.navbar{
+  background-color: #000;
+  
+}
+.nav-link{
+  color: #fff !important;
+}
+.navbar-brand{
+  color: #fff !important;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+@media screen and (max-width:1000px) {
+  .btn-dark{
+    width: 80px;
+    left: 25px;
+  }
+  .registration{
+    height: auto;
+    background-position: center;
+  }
+  .registration_part{
+    height: 1000px;
+  }
+  .registration_part{
+    width: 100%;
+  }
+}
